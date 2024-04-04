@@ -14,7 +14,7 @@ You can find dataset by this link: https://www.kaggle.com/datasets/kanametov/ph2
 - SegNet
 - U-Net
 #### A little of explanation:
-Whenever I train my model, I consistently conduct predictions on test data and then compare the predicted results with the actual answers through visualization to see how much my prediction is close to the actual answer.
-
+- Whenever I train my model, I consistently conduct predictions on test data and then compare the predicted results with the actual answers through visualization to see how much my prediction is close to the actual answer.
+- I am experimenting with training SegNet and U-Net models using various loss functions to determine which combination yields superior performance.
 #### Result:
 Best model is: Unet + SSIM, IoU score is: 0.9130123853683472
